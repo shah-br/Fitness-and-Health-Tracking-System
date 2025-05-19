@@ -1,30 +1,20 @@
 
-/*
-** Author: Bhavya Rajesh Shah & Aryan Prateek Bhatt
-** Course: IFT 530
-** SQL Server Version: Microsoft SQL Server 2022 RTM
-** History
-** Date Created			Comments
-** 04/28/2025			Project Part 1
-*/
-
-
 USE MASTER
 -- DROP, CREATE AND USE DATABASE
 GO
 
 -- Force disconnect all users
-IF DB_ID('Group66') IS NOT NULL
+IF DB_ID('FitnessDB') IS NOT NULL
 BEGIN
-    ALTER DATABASE Group66 SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
-    DROP DATABASE Group66;
+    ALTER DATABASE FitnessDB SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE FitnessDB;
 END
 GO
 
-CREATE DATABASE Group66
+CREATE DATABASE FitnessDB
 GO
 
-USE Group66
+USE FitnessDB
 GO
 
 
