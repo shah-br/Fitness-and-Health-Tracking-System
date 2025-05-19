@@ -1,15 +1,5 @@
 
-/*
-** Author: Bhavya Rajesh Shah & Aryan Prateek Bhatt
-** Course: IFT 530
-** SQL Server Version: Microsoft SQL Server 2022 RTM
-** History
-** Date Created			Comments
-** 04/29/2025			Project Part 2
-*/
-
-
-USE Group66;
+USE FitnessDB;
 GO
 
 INSERT INTO Users (UserName, Email, Gender, DateofBirth) VALUES ('Mia Williams', 'mia181@example.com', 'Male', '2013-08-05');
