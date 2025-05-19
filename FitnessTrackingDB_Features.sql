@@ -1,15 +1,5 @@
 
-/*
-** Author: Bhavya Rajesh Shah & Aryan Prateek Bhatt
-** Course: IFT 530
-** SQL Server Version: Microsoft SQL Server 2022 RTM
-** History
-** Date Created			Comments
-** 04/30/2025			Project Part 3
-*/
-
-
-USE Group66;
+USE FitnessDB;
 GO
 
 --------------------------
